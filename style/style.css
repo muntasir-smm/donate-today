@@ -180,3 +180,51 @@ section {
 .blog-image img {
   width: 100%;
 }
+
+/* Get My Updates */
+.get-updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-section {
+  background-color: #edeaaa;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.email-section {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+#email {
+  width: 55%;
+  height: 36px;
+  border: none;
+  border-radius: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 0px 20px;
+}
+input:focus-visible {
+  outline: none;
+}
+
+.btn-sub {
+  height: 36px;
+  width: 45%;
+  font-size: 14px;
+  border-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0%;
+}
