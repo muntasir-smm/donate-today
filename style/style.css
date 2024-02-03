@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  /* background-color: white; */
+}
+
+/* Button Primary */
+
+.btn-primary {
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+/* Header Section  */
+
+.header {
+  font-family: "Protest Strike", sans-serif;
+  background: url(../media/images/donation6.jpg);
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.header-title {
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+.header-sub-title {
+  font-size: 24px;
+  /* color: lightgrey; */
+  padding-bottom: 20px;
+}
