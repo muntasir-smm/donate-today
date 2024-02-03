@@ -21,22 +21,30 @@
 /* Header Section  */
 
 .header {
-  background: url(../media/images/donation6.jpg);
+  background: url(../media/images/donation2.jpg);
   background-size: cover;
   /* background-blend-mode: multiply; */
   color: white;
   text-align: center;
-  padding: 50px;
+  padding: 100px 20px;
 }
 .header-title {
-  font-size: 50px;
-  /* font-family: "Roboto", sans-serif; */
-  padding-bottom: 40px;
+  font-size: 52px;
+  font-family: "Protest Strike", sans-serif;
+  padding: 60px 0px;
+  color: indigo;
+
+  /* Text outline */
+  text-shadow: -4px -4px 0 #fff200, 4px -4px 0 #fff200, -4px 4px 0 #fff200,
+    4px 4px 0 #fff200;
 }
 
 .header-sub-title {
   font-size: 24px;
-  padding-bottom: 20px;
+  padding: 60px 0px;
+  /* Text outline */
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    1px 1px 0 #000000;
 }
 
 section {
@@ -94,4 +102,40 @@ section {
 
 .plans {
   display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.plan {
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.plan-food {
+  background-color: lightblue;
+}
+
+.plan-shelter {
+  background-color: #ee9494;
+}
+
+.plan-education {
+  background-color: lightyellow;
+}
+
+.plan-icon {
+  padding: 20px 0px;
+  display: flex;
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.plan-description {
+  text-align: justify;
 }
